@@ -1,0 +1,66 @@
+.git
+.gitignore
+.venv
+venv
+__pycache__
+**/__pycache__/
+*.pyc
+.pytest_cache
+.mypy_cache
+.ruff_cache
+
+logs
+trash
+database/*.db
+cookies.json
+
+.idea
+.vscode
+# Исключаем ненужные файлы из контекста сборки
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Виртуальные окружения
+.venv/
+venv/
+ENV/
+env/
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Временные файлы
+trash/
+logs/
+*.log
+
+# База данных (будет монтироваться как том)
+database/
+
+# Файлы разработки
+README.md
+.env.example
+
+# Docker файлы
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Тесты
+tests/
+pytest.ini
+.pytest_cache/
+
+# Другое
+.DS_Store
+Thumbs.db
+
